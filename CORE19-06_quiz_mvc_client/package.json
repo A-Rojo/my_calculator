@@ -1,0 +1,26 @@
+{
+  "name": "CORE19-06_quiz_mvc_client",
+  "version": "1.0.0",
+  "description": "CORE19-06_quiz_mvc_client",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "checks": "node tests/launcher.js",
+    "zip": "node tests/compress.js CORE19-06_quiz_mvc_client"
+  },
+  "private": true,
+  "keywords": [
+    "CORE",
+    "QUIT"
+  ],
+  "author": "ging",
+  "license": "Unlicense",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "fs-extra": "^6.0.1",
+    "archiver": "^3.0.0",
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "zombie": "^6.1.4"
+  }
+}
