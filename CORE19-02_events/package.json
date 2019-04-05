@@ -1,0 +1,23 @@
+{
+  "name": "CORE19-02_events",
+  "version": "1.0.0",
+  "author": "CORE",
+  "license": "ISC",
+  "engines": {
+    "node": "^8.9.4"
+  },
+  "main": "practica2.js",
+  "private": true,
+  "scripts": {
+    "start": "node practica2",
+    "checks": "node tests/launcher.js",
+    "zip": "node tests/compress.js"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "fs-extra": "^6.0.1",
+    "archiver": "^3.0.0",
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2"
+  }
+}
